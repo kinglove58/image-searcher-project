@@ -1,0 +1,12 @@
+$primary-color: white;
+$background-color: darkblue;
+$font-size: 32;
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+* {
+  margin: 0;
+  box-sizing: 0;
+  padding: 0;
+}

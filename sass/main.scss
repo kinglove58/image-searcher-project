@@ -1,0 +1,63 @@
+@import "reset";
+
+body {
+  background-color: $background-color;
+  text-align: center;
+  margin: 10% 5%;
+}
+
+.image-text-info h1 {
+  font-size: $font-size;
+  color: $primary-color;
+  margin: 10px;
+}
+
+form {
+  @include flex-center;
+  width: 90%;
+  max-width: 600px;
+  height: 80px;
+  background: #434989;
+  margin: auto;
+  border-radius: 8px;
+  input {
+    flex: 1;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 0 30px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+  }
+  button {
+    height: 100%;
+    padding: 0 40px;
+    font-size: 18px;
+    background-color: #ff3929;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: 0;
+    border: 0;
+  }
+}
+
+::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+#shown-more-btn {
+  padding: 10px;
+  background-color: #ff3929;
+  margin: 10px auto 5px;
+  outline: 0;
+  border-radius: 5px;
+  border: 0;
+  color: $primary-color;
+  font-size: $font-size;
+  cursor: pointer;
+  display: none;
+}
