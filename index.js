@@ -1,4 +1,4 @@
-const acessKeyword = "dKzXdjHgOu_8-aODeSUTmA7lZbPyBzvRrsPBfeD2kaw";
+const acessKeyword = "kept this secret you can use your code";
 const searchForm = document.querySelector("#search-form");
 const searchBox = document.querySelector("#search-box");
 const searchResult = document.querySelector("#search-result");
