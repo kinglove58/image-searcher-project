@@ -22,6 +22,7 @@ const searchImage = async () => {
   results.map((result) => {
     const image = document.createElement("img");
     image.src = result.urls.small;
+    image.setAttribute("data-id", result.id);
     const imageLink = document.createElement("a");
     imageLink.href = result.links.html;
     imageLink.target = "_blank";
